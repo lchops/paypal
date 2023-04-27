@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PayPal Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+      /* Style your HTML here */
+      body {
+        background-color: #f7f7f7;
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+      }
+      .container {
+        width: 80%;
+        max-width: 400px;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: white;
+        padding: 40px;
+        box-shadow: 0px 0px 10px #ccc;
+      }
+      .logo {
+        width: 200px;
+        margin-bottom: 30px;
+      }
+      .title {
+        font-weight: 300;
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+      .input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+      .btn {
+        width: 100%;
+        background-color: #0070ba;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .link {
+        color: #0070ba;
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 10px;
+      }
+      .options {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="popup-form">
+      <h2 class="title">Log in to your PayPal account</h2>
+      <form>
+        <input type="email" placeholder="Email" class="input">
+        <input type="password" placeholder="Password" class="input">
+        <input type="submit" value="Log In" class="btn">
+        <div class="options">
+          <a href="#" class="link">Sign Up</a>
+          <a href="#" class="link">Forgot Password?</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
